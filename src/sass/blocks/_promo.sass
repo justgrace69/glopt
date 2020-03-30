@@ -86,15 +86,18 @@
     padding: 27px 0 39px 0
     display: flex
     justify-content: space-between
-    align-items: center
+    align-items: flex-start
     &__item
         width: 260px
-        &:nth-child(2)
-            margin-top: 10px
+        display: flex
+        flex-direction: column
+        align-items: center
     &__round
         display: flex
-        justify-content: center       
-        
+        justify-content: center   
+        align-items: center
+        width: 63px
+        height: 63px        
     &__descr
         margin-top: 15px
         text-align: center
@@ -102,6 +105,10 @@
         line-height: 22px
         font-weight: 300
         color: #ffffff
+        &_agent
+            margin-top: 22px
+            font-size: 19px
+            line-height: 27px
         
         
 
